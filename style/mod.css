@@ -1,0 +1,53 @@
+.best-timer-container{
+  width: 62px;
+  font-size: 15px;
+  display: inline-block;
+  background: #bbada0;
+  height: 17px;
+  line-height: 47px;
+  font-weight: bold;
+  padding: 19px 25px;
+  border-radius: 3px;
+}
+
+.modal-backdrop{
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity: .8;
+}
+.modal{
+  position: fixed;
+    top: 20px;
+    background: white;
+    width: 360px;
+    height: 300px;
+    z-index: 2040;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.modal header{
+  padding: 15px;
+  text-align: center;
+  border-bottom: solid 1px #ddd;
+}
+.modal .close{
+  float: right;
+  font-size: 24px;
+}
+.hide{display: none}
+.milestone{padding: 15px}
+.milestone .label{
+  display: inline-block;
+    font-weight: bold;
+    text-align: right;
+    width: 80px;
+}
+.milestone .value{
+  margin-left: 50px;color: burlywood;
+}
