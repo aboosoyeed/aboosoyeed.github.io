@@ -1,14 +1,10 @@
 .best-timer-container{
   width: 62px;
   font-size: 15px;
-  display: inline-block;
-  background: #bbada0;
-  height: 17px;
-  line-height: 47px;
-  font-weight: bold;
-  padding: 19px 25px;
-  border-radius: 3px;
+  top: -4px;
 }
+.best-timer-container:after {
+  content: "Click"; }
 
 .modal-backdrop{
   position: fixed;
@@ -39,6 +35,7 @@
 .modal .close{
   float: right;
   font-size: 24px;
+  cursor: pointer;
 }
 .hide{display: none}
 .milestone{padding: 15px}
